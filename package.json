@@ -1,0 +1,24 @@
+{
+  "name": "rule-tree-editor",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "node server/index.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@timkendrick/monaco-editor": "0.0.9",
+    "@zeit/next-css": "^1.0.1",
+    "css-loader": "^1.0.1",
+    "express": "^4.16.4",
+    "monaco-editor": "^0.15.5",
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-monaco-editor": "^0.21.0"
+  }
+}
